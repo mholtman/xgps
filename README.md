@@ -26,7 +26,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
     end
     ```
 
-  3. To make an effort to be platform independent, XGPS uses [nerves_uart](https://github.com/nerves-project/nerves_uart) for the dirty details. Please make sure to follow the instructions for nerves_uart to make this compile and run on your system.
+  3. To make an effort to be platform independent, XGPS uses [circuits_uart](https://github.com/elixir-circuits/circuits_uart) for the dirty details. Please make sure to follow the instructions for circuits_uart to make this compile and run on your system.
 
 ## Usage: start
 ### Manually

@@ -5,7 +5,7 @@ defmodule XGPS.Mixfile do
     [app: :xgps,
      name: XGPS,
      version: "0.4.1",
-     elixir: "~> 1.3",
+     elixir: "~> 1.6",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      source_url: "https://github.com/royveshovda/xgps",
@@ -20,8 +20,8 @@ defmodule XGPS.Mixfile do
   end
 
   defp deps do
-    [{:nerves_uart, "~> 0.1.1"},
-     {:mix_test_watch, "~> 0.2.6"},
+    [{:circuits_uart, "~> 1.3.1"},
+     {:mix_test_watch, "~> 0.9.0"},
      {:gen_stage, "~> 0.6.1"},
      {:ex_doc, ">= 0.0.0", only: :dev}
     ]
